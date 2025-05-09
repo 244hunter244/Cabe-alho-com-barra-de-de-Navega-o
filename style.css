@@ -2,9 +2,6 @@
 header{
     background-color: black;
 }
-nav{
-    background-color: red;
-}
 body{
  margin: 0;
  text-align: center;
@@ -12,4 +9,25 @@ body{
  background-color: white;
  color:white;
  font-size: 22px;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+}
+nav{
+    background-color:darkgray;
+    padding: 20px;
+}
+a{
+   color: white;
+   text-decoration: none;
+   padding: 20px;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    background-color: dimgray;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
 }
